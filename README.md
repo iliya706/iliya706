@@ -1,28 +1,12 @@
 <div align="center" style="background: #000000; color: #00ff41; font-family: 'Courier New', monospace; padding: 60px 40px; border: 5px solid #00ff41; border-radius: 18px; max-width: 1200px; margin: 30px auto; box-shadow: inset 0 0 80px rgba(0,255,65,0.35), 0 0 60px rgba(0,255,65,0.25); position: relative; overflow: hidden;">
 
-  <!-- اسکن لاین متحرک -->
+  <!-- اسکن لاین متحرک (برای حس هکری بدون عکس) -->
   <div style="position: absolute; inset: 0; background: repeating-linear-gradient(transparent 0%, transparent 2px, rgba(0,255,65,0.06) 2px, rgba(0,255,65,0.06) 4px); pointer-events: none; animation: scan 5s linear infinite;"></div>
 
   <h1 align="center" style="color: #00ff41; text-shadow: 0 0 25px #00ff41, 0 0 50px #00ff41; font-size: 3.2em; margin: 0 0 25px 0;">root@iliya:~# whoami</h1>
 
   <!-- typing matrix -->
   <img src="https://readme-typing-svg.demolab.com?font=VT323&size=40&pause=500&color=00ff41&center=true&vCenter=true&width=950&lines=Ethical+Hacking+Enthusiast;Cybersecurity+Learner;High+School+Student+(Networking+%26+Software);Building+Skills+in+Penetration+Testing" alt="Matrix Typing" style="margin: 30px 0;" />
-
-  <!-- عکس fsociety قرمز با افکت‌های قوی -->
-  <p align="center" style="margin: 50px 0; position: relative;">
-    <img 
-      src="https://w0.peakpx.com/wallpaper/170/531/HD-wallpaper-mr-robot-fsociety-logo-minimalism-mr-robot-tv-shows-logo-minimalism.jpg" 
-      alt="fsociety Red" 
-      width="380" 
-      style="
-        filter: brightness(1.4) contrast(1.3) drop-shadow(0 0 40px #ff0044) hue-rotate(0deg) saturate(1.8);
-        animation: glitch 2.8s infinite alternate, pulse 1.8s infinite;
-        border-radius: 15px;
-        border: 3px solid rgba(255,0,68,0.6);
-        box-shadow: 0 0 60px rgba(255,0,68,0.5), inset 0 0 20px rgba(255,0,68,0.3);
-      "
-    />
-  </p>
 
   <!-- About Me – متن دقیقاً همون قبلی -->
   <pre style="text-align: left; background: #0a0a0a; padding: 35px; border: 3px dashed #00ff41; border-radius: 12px; max-width: 1000px; margin: 40px auto; font-size: 1.25em; box-shadow: 0 0 35px rgba(0,255,65,0.3);">
@@ -71,20 +55,8 @@ My goal: Become a skilled **Penetration Tester** or **SOC Analyst**. I love hand
 </div>
 
 <style>
-  @keyframes glitch {
-    0% { transform: translate(0); }
-    20% { transform: translate(-5px, 5px); }
-    40% { transform: translate(5px, -5px); }
-    60% { transform: translate(-4px, 4px); }
-    80% { transform: translate(4px, -4px); }
-    100% { transform: translate(0); }
-  }
   @keyframes scan {
     0% { transform: translateY(-200%); }
     100% { transform: translateY(400%); }
-  }
-  @keyframes pulse {
-    0%, 100% { filter: brightness(1.4); }
-    50% { filter: brightness(1.8); }
   }
 </style>
